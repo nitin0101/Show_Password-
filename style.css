@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #eee;
+}
+.container{
+    background: #f1c40f;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 330px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.inputs{
+    box-sizing: border-box;
+}
+input[type="email"]{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: 700;
+    outline: none;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 230px;
+}
+input[type="password"]{
+    width: 230px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: 700;
+    outline: none;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    border-radius: 2px;
+    outline: none;
+    width: 120px;
+    background: #fff;
+    border: none;
+}
+button:hover{
+    background: blue;
+    color: white;
+    border: 1px solid black;
+}
+#show:hover{
+    background: blue;
+    color: white;
+    border: 1px solid black;
+}
+#show{
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    border-radius: 2px;
+    outline: none;
+    width: 120px;
+    background: #fff;
+    border: none;
+}
